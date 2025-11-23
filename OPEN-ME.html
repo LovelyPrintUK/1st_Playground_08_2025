@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTF Mockup Generator - Quick Launcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 18px 40px;
+            margin: 10px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .btn-pro {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        .btn-pro:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        .btn-basic {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .btn-basic:hover {
+            background: #e0e0e0;
+            transform: translateY(-2px);
+        }
+        .icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        .info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        .info h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .info li {
+            padding: 8px 0;
+            color: #555;
+        }
+        .info li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+        }
+        .badge {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🎨</div>
+        <h1>DTF Mockup Generator</h1>
+        <p class="subtitle">Professional offline mockup creator</p>
+
+        <div style="margin: 30px 0;">
+            <a href="dtf-mockup-generator-pro.html" class="btn btn-pro">
+                🚀 Open Pro Version
+                <span class="badge">RECOMMENDED</span>
+            </a>
+            <br>
+            <a href="dtf-mockup-generator.html" class="btn btn-basic">
+                📄 Open Basic Version
+            </a>
+        </div>
+
+        <div class="info">
+            <h3>✨ Pro Version Features:</h3>
+            <ul>
+                <li>Batch upload multiple designs</li>
+                <li>Auto-generate 6 variations per design</li>
+                <li>Design library with gallery view</li>
+                <li>Batch export all mockups</li>
+                <li>Professional webapp interface</li>
+                <li>Mobile responsive</li>
+            </ul>
+        </div>
+
+        <p style="margin-top: 30px; color: #999; font-size: 14px;">
+            📖 See README.md for full documentation
+        </p>
+    </div>
+</body>
+</html>
